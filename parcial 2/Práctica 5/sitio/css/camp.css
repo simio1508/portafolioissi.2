@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    color: crimson;
+    background-color: darkgray;
+    text-align: center;
+}
+h3{
+    color: black
+}
+table{
+    margin: auto;
+}
+td{
+    color: black;
+}
+h1{
+    color: red;
+}

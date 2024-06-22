@@ -1,0 +1,20 @@
+body{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+} 
+th{
+    border: 1px solid black;
+     border-collapse: collapse;
+     color: red;
+     padding: 10px;
+}
+h1{
+    color: red;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Contacto</title>
+        <link rel="stylesheet" href="css\contacto.css">
+        <link rel="stylesheet" href="css\header.css">
+        <link rel="stylesheet" href="css\footer.css">
+    </head>
+    <body>
+        <header id="header">
+            <div id="content-header">
+                <div id="titulos-header">
+                    <h1>🥊La casa del boxeo🥊</h1>
+                </div>
+                <article id="article-header">
+                    <a href="reglas.html" target="_parent">reglas</a>
+                    <a href="camp.html" target="_parent">campeonatos</a>
+                    <a href="rep.html" target="_parent">representantes</a>
+                    <a href="Lacasadelboxeo.html" target="_parent">pagina principal</a>
+                </article>
+            </div>
+        </header>
+
+        <h2>Formulario de Contacto</h2>
+        <form action="https://formspree.io/f/xbjnqevr" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        <img src="img\boxeo.jpeg" alt="imagen relativa">
+        <footer id="footer">
+            <div id="content-footer">
+                <p id="p-footer">
+                    Autores:Manuel Isack barreras Romero,
+                    Jonathan Oswaldo Sanchez Ortiz,
+                    Oscar Adan Euan Garcia.<br>
+                    <br>
+                </p>
+            </div>  
+        </footer>
+    </body>
+</html>

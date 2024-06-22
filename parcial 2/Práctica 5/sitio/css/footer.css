@@ -1,0 +1,10 @@
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+#p-footer{
+    color: crimson;
+}

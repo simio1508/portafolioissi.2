@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+    border: 100;
+    border-color: black;
+}
+ol{
+    text-align: justify;
+}
